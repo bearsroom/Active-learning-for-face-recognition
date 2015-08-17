@@ -1,0 +1,16 @@
+net: "/home/liyh/people_200_models/train_full_1.00_5C3F_1_synthesis_hdf5.prototxt"
+test_iter: 193
+test_interval: 1000
+base_lr: 0.001
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: 20000
+stepvalue: 35000
+stepvalue: 45000
+display: 1000
+max_iter: 50000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 20000
+snapshot_prefix: "/home/liyh/people_200_models/train_model_synthesis_full_1.00_hdf5"
+solver_mode: GPU
